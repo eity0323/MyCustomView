@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zms="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- eclipse 中xmlns需要在res后面加上完整的包名和控件名-->
+
+    <com.zms.mycustomview.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        zms:leftBackground="@drawable/ic_launcher"
+        zms:leftText="HAHA"
+        zms:leftTextColor="#0000ff"
+        zms:mTitle="ZMS"
+        zms:titleTextColor="#00ff00"
+        zms:titleTextSize="25dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
